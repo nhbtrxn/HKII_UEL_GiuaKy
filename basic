@@ -1,6 +1,6 @@
 from PIL import Image, ImageEnhance
 
-image = Image.open('diachihinhanh')        #lấy ảnh có sẵn
+image = Image.open('diachihinhanh')        lấy ảnh có sẵn
 #image.show()
 #print(ImageColor.colormap)                     #hiển thị màu
 image_new = Image.new('RGBA',(1000,600))        #tạo ảnh mới
